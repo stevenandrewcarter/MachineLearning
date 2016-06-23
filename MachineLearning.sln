@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsRecognizer.CSharp", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DigitsRecognizer.FSharp", "DigitsRecognizer.FSharp\DigitsRecognizer.FSharp.fsproj", "{9374F737-8FE1-4BD2-AE44-A10BD2B8AC9F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HamOrSpam", "HamOrSpam\HamOrSpam.fsproj", "{DF073BDD-2A33-4620-8902-1EAC71804779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9374F737-8FE1-4BD2-AE44-A10BD2B8AC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9374F737-8FE1-4BD2-AE44-A10BD2B8AC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9374F737-8FE1-4BD2-AE44-A10BD2B8AC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF073BDD-2A33-4620-8902-1EAC71804779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF073BDD-2A33-4620-8902-1EAC71804779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF073BDD-2A33-4620-8902-1EAC71804779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF073BDD-2A33-4620-8902-1EAC71804779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
