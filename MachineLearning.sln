@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DigitsRecognizer.FSharp", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HamOrSpam", "HamOrSpam\HamOrSpam.fsproj", "{DF073BDD-2A33-4620-8902-1EAC71804779}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviders", "TypeProviders\TypeProviders.fsproj", "{CE25F833-B1AF-4594-B10A-65E2A116F5D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DF073BDD-2A33-4620-8902-1EAC71804779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF073BDD-2A33-4620-8902-1EAC71804779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF073BDD-2A33-4620-8902-1EAC71804779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
