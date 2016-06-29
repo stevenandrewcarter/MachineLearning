@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsRecognizer.CSharp", "DigitsRecognizer.CSharp\DigitsRecognizer.CSharp.csproj", "{8A46D956-E289-4A6F-9CA4-AD9F8F2174C7}"
 EndProject
@@ -10,6 +10,17 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HamOrSpam", "HamOrSpam\HamOrSpam.fsproj", "{DF073BDD-2A33-4620-8902-1EAC71804779}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypeProviders", "TypeProviders\TypeProviders.fsproj", "{CE25F833-B1AF-4594-B10A-65E2A116F5D7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BikesAndMen", "BikesAndMen\BikesAndMen.fsproj", "{9074EFDB-069E-4F36-BB58-5D95CE9E78C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9DA7227-66A3-4CE5-B5B0-FB137FDFDAD2}"
+	ProjectSection(SolutionItems) = preProject
+		Data\day.csv = Data\day.csv
+		Data\hour.csv = Data\hour.csv
+		Data\SMSSpamCollection = Data\SMSSpamCollection
+		Data\trainingsample.csv = Data\trainingsample.csv
+		Data\validationsample.csv = Data\validationsample.csv
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +44,10 @@ Global
 		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE25F833-B1AF-4594-B10A-65E2A116F5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9074EFDB-069E-4F36-BB58-5D95CE9E78C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9074EFDB-069E-4F36-BB58-5D95CE9E78C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9074EFDB-069E-4F36-BB58-5D95CE9E78C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9074EFDB-069E-4F36-BB58-5D95CE9E78C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
